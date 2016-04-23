@@ -1,0 +1,22 @@
+{
+  "name": "spaceapp",
+  "private": false,
+  "version": "1.0.0",
+  "description": "Presentation website for Brasov Romania",
+  "license": "MIT",
+
+  "repository": "",
+  "devDependencies":{
+    "http-server": "^0.6.1",
+    "shelljs": "^0.2.6"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000 -c-1"
+  },
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "jquery": "~2.2.0",
+  
+  }
+}
